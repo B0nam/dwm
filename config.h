@@ -7,10 +7,15 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=10";
+//background color
 static const char col_gray1[]       = "#222222";
+//inactive window border color
 static const char col_gray2[]       = "#444444";
+//font color
 static const char col_gray3[]       = "#bbbbbb";
+//current tag and current window font color
 static const char col_gray4[]       = "#eeeeee";
+//top bar second color and acrive window border color
 static const char col_cyan[]        = "#005577";
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
@@ -19,6 +24,7 @@ static const char *colors[][3]      = {
 };
 
 /* tagging */
+//upper left
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
 
 static const Rule rules[] = {
